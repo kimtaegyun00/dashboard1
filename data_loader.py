@@ -1,2 +1,5 @@
+import pandas as pd
+
 def load_data():
-    pass
+    df = pd.read_csv("stock_data.csv")
+    return df
